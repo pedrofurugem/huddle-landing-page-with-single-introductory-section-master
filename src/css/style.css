@@ -1,0 +1,94 @@
+body{
+    background: url('/src/images/bg-desktop.svg') center center
+    no-repeat fixed;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.logo {
+    background-color: rgb(235, 162, 235);
+    width: 260px;
+    margin: 30px 30px 30px 120px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 110px
+    
+}
+
+.container-grid {
+    display: grid;
+    grid: "picture contain";
+}
+
+.picture {
+    grid-area: picture;
+}
+
+.contain{
+    grid-area: contain;
+    margin-top: 30px;
+}
+
+.contain .contain-description{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.contain .contain-description:last-child{
+    margin-top: 60px;
+}
+
+.contain  h1{
+    width: 300px;
+    font-size: 28px;
+    font-weight:  700;
+}
+
+.contain p {
+    width: 450px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 25px;
+    height: 50px;
+    font-weight: 600;
+}
+
+button {
+    background-color: rgb(228, 95, 228);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: #FFF;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #FFF;
+    border: 1px solid rgb(228, 95, 228);
+    color: rgb(228, 95, 228);;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    width: 1065px;
+    margin: auto;
+}
+
+.social a  i  {
+    padding: 20px;
+    margin: 15px;
+    text-decoration: none;
+    border: 1px solid rgb(60, 20, 60);
+    border-radius: 50%;
+}
+
+.social a  i:hover  {
+    border: 1px solid red;
+}
+
+
+

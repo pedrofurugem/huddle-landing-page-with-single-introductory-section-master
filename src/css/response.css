@@ -1,0 +1,81 @@
+@media(max-width:767px) {
+    body{
+        background: url('/src/images/bg-mobile.svg') top left
+        no-repeat fixed;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 30px;
+    }
+
+    .container-grid {
+        display: grid;
+        grid: "picture"
+              "contain";
+    }
+
+    .logo{
+        width: 110px;
+        height: 45px;
+        margin: 30px
+    }
+
+    .logo img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .picture img{
+        width: 300px;
+        margin: auto;
+    }
+
+    .contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contain .contain-description{
+        margin-top: 30px;
+    }
+
+    .contain h1{
+        width: 200px;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    .contain p {
+        font-size: 16px;
+        width: 230px;
+        text-align: center;
+        
+    }
+
+    button {
+        width: 150px;
+        height: 30px;
+    }
+    
+    .contain .contain-description:last-child{
+        margin-top: 150px;
+        margin-right: 40px
+    }
+
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-top: 0;
+    }
+
+}
