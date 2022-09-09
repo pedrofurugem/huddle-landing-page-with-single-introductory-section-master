@@ -2,10 +2,10 @@ body{
     background: url('/src/images/bg-desktop.svg') center center
     no-repeat fixed;
     font-family: 'Roboto', sans-serif;;
+    background-color: #674BB1
 }
 
 .logo {
-    background-color: rgb(235, 162, 235);
     width: 260px;
     margin: 30px 30px 30px 120px;
 }
@@ -44,6 +44,7 @@ body{
     width: 300px;
     font-size: 28px;
     font-weight:  700;
+    color: white;
 }
 
 .contain p {
@@ -53,22 +54,23 @@ body{
     line-height: 25px;
     height: 50px;
     font-weight: 600;
+    color: white
 }
 
 button {
-    background-color: rgb(228, 95, 228);
+    background-color: #FFF;
     width: 150px;
     height: 50px;
     border: none;
     border-radius: 25px;
-    color: #FFF;
+    color: #D3CDE6
 }
 
 button:hover{
     cursor: pointer;
-    background-color: #FFF;
+    background-color: rgb(228, 95, 228);
     border: 1px solid rgb(228, 95, 228);
-    color: rgb(228, 95, 228);;
+    color: #FFF;
 }
 
 .social {
@@ -82,7 +84,7 @@ button:hover{
     padding: 20px;
     margin: 15px;
     text-decoration: none;
-    border: 1px solid rgb(60, 20, 60);
+    border: #FFF;
     border-radius: 50%;
 }
 
