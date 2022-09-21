@@ -63,7 +63,8 @@ button {
     height: 50px;
     border: none;
     border-radius: 25px;
-    color: #D3CDE6
+    color: #D3CDE6;
+    transition: 0.3s ease-in-out;
 }
 
 button:hover{
@@ -80,12 +81,23 @@ button:hover{
     margin: auto;
 }
 
+.social .fab{
+    color: #FFF;
+}
+
+
+
 .social a  i  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     margin: 15px;
     text-decoration: none;
-    border: #FFF;
+    border: 1px solid #FFF;
     border-radius: 50%;
+    width: 5px;
+    height: 5px
 }
 
 .social a  i:hover  {
