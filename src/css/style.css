@@ -63,7 +63,7 @@ button {
     height: 50px;
     border: none;
     border-radius: 25px;
-    color: #D3CDE6;
+    color: #972984;
     transition: 0.3s ease-in-out;
 }
 
@@ -85,8 +85,6 @@ button:hover{
     color: #FFF;
 }
 
-
-
 .social a  i  {
     display: flex;
     align-items: center;
@@ -101,6 +99,7 @@ button:hover{
 }
 
 .social a  i:hover  {
+    color: red;
     border: 1px solid red;
 }
 
