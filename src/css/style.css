@@ -1,8 +1,8 @@
 body{
-    background: url('/src/images/bg-desktop.svg') center center
+    background: url(../images/bg-desktop.svg) center center
     no-repeat fixed;
     font-family: 'Roboto', sans-serif;;
-    background-color: #674BB1
+    background-color: #674BB1;
 }
 
 .logo {

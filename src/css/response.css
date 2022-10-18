@@ -1,6 +1,6 @@
 @media(max-width: 850px) {
     body{
-        background: url('/src/images/bg-mobile.svg') top left
+        background: url(../images/bg-mobile.svg) top left
         no-repeat fixed;
         background-color: #674BB1;
     }
